@@ -1,5 +1,5 @@
 # Myosin-cluster-analysis
-This Matlab script is used to quantitatively analyze myosin clusters in cells. Myosin clusters were endogenously tagged with a fluorescent protein and imaged with spinning-disk confocal microscopy. The [preprint](https://doi.org/10.1101/2023.06.07.544121) is on bioRxiv .
+This repository contains Matlab scripts used for the quantitative image analysis in [Chou et al., (2024) Biophysical Journal](https://www.sciencedirect.com/science/article/pii/S0006349523041243?via%3Dihub). The goal of the analysis is to quantitatively analyze myosin clusters in cells. Myosin clusters were endogenously tagged with a fluorescent protein and imaged with spinning-disk confocal microscopy. 
 
 myosinPeakInt_main_v2.m is the main script that runs the analysis. The workflow is as follows: subtract background, feature identification, feature filtering, intensity fitting. After identifying myosin clusters and calculating their intensity, the results are saved and can be loaded into myosinPeakInt_analysis.m for further analysis.
 
@@ -9,3 +9,4 @@ Tested on Matlab 2021a and 2021b. Requires the Image Processing Toolbox. Require
 
 Refernce: 
 [1] J. C. Crocker and D. G. Grier, "Methods of digital video microscopy for colloidal studies," Journal of Colloid and Interface Science 179, 298-310 (1996).
+
